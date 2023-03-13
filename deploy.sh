@@ -1,6 +1,9 @@
 #!/usr/bin/env bash
+# kill instances
+killall node
+# Install node
 sudo apt update && sudo apt install nodejs npm
-# Install pm2 which is a production process manager for Node.js with a built-in load balancer
+# Install truffle
 sudo npm install truffle
 # change directory into folder where application is downloaded
 cd DevopsCASimpleApp/
